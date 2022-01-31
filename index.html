@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    
+</body>
+
+    <div class="title bg-info text-white">
+        <h1>Weather Dashboard</h1>
+    </div>
+<div class="row">
+    <div class="search col-md-3" id="searcharea">
+        <h2>Search for a City:</h2>
+        <input type="text" class="form-control" id="inputcity" placeholder="San Diego">
+        <button type="submit" class="btn btn-primary" id="searchbutton">Search</button>
+    </div>
+
+    <div class="output col-md-8" >
+        <div class="h-100"id="todayforecast"></div>
+        <div id="futureforecast">
+            <div id="1"></div>
+            <div id="2"></div>
+            <div id="3"></div>
+            <div id="4"></div>
+            <div id="5"></div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</html>
