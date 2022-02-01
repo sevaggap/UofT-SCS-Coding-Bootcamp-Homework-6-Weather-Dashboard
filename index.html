@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Weather Dashboard</title>
 </head>
 <body>
@@ -18,22 +18,53 @@
 <div class="row">
     <div class="search col-md-3" id="searcharea">
         <h2>Search for a City:</h2>
-        <input type="text" class="form-control" id="inputcity" placeholder="San Diego">
+        <input type="text" class="form-control" id="inputcity" placeholder="Toronto">
         <button type="submit" class="btn btn-primary" id="searchbutton">Search</button>
+        <div class="col-md-3" id="history"></div>
     </div>
 
     <div class="output col-md-8" >
-        <div class="h-100"id="todayforecast"></div>
+        <div class="h-30"id="todayforecast"></div>
         <div id="futureforecast">
-            <div id="1"></div>
-            <div id="2"></div>
-            <div id="3"></div>
-            <div id="4"></div>
-            <div id="5"></div>
+            <h2>5-Day Forecast:</h2>
+            <div class= "d-flex">
+                <div class="card bg-primary text-white" style="width: 12rem; height: 18rem;" id="1">
+                    <h4 id="date1"></h4>
+                    <p id="temp1"></p>
+                    <p id="wind1"></p>
+                    <p id="humidity1"></p>
+                </div>
+                <div class="card bg-primary text-white ml-5" style="width: 12rem; height: 18rem;" id="2">
+                    <h4 id="date2"></h4>
+                    <p id="temp2"></p>
+                    <p id="wind2"></p>
+                    <p id="humidity2"></p>
+                </div>
+                <div class="card bg-primary text-white ml-5" style="width: 12rem; height: 18rem;" id="3">
+                    <h4 id="date3"></h4>
+                    <p id="temp3"></p>
+                    <p id="wind3"></p>
+                    <p id="humidity3"></p>
+                </div>
+                <div class="card bg-primary text-white ml-5" style="width: 12rem; height: 18rem;" id="4">
+                    <h4 id="date4"></h4>
+                    <p id="temp4"></p>
+                    <p id="wind4"></p>
+                    <p id="humidity4"></p>
+                </div>
+                <div class="card bg-primary text-white ml-5" style="width: 12rem; height: 18rem;" id="5">
+                    <h4 id="date5"></h4>
+                    <p id="temp5"></p>
+                    <p id="wind5"></p>
+                    <p id="humidity5"></p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
-<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="./assets/script.js"></script>
 
 </html>

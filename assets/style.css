@@ -1,0 +1,63 @@
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+#todayforecast {
+    margin-top: 10px;
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#history button {
+    width: 600%;
+    border-radius: 10px;
+}
+
+.bg-green {
+    background-color: green;
+    color: white;
+    width: 10%;
+    border-radius: 10px;
+}
+
+.bg-yellow {
+    background-color: yellow;
+    color: white;
+    width: 10%;
+    border-radius: 10px;
+}
+
+.bg-orange {
+    background-color: orange;
+    color: white;
+    width: 10%;
+    border-radius: 10px;
+}
+
+.bg-red {
+    background-color: red;
+    color: white;
+    width: 10%;
+    border-radius: 10px;
+}
+
+.bg-grey {
+    background-color: grey;
+    color: white;
+    width: 10%;
+    border-radius: 10px;
+}
+
