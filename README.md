@@ -32,4 +32,4 @@ limitations under the License.
 ## GitHub and Link to Deployed Application
 Github: sevaggap
 <br>
-Application: https://sevaggap.github.io/UofT-SCS-Coding-Bootcamp-Homework-6-Weather-Dashboard/
+Application: https://sevaggap.github.io/Weather-Dashboard/
